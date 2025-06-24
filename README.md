@@ -23,18 +23,20 @@ A multimodal desktop assistant powered by [Meta LLaMA 3 70B](https://huggingface
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
+###  Clone the Repo and  Run the fillowing commands
 
 ```bash 
 git clone https://github.com/your-username/llama3-desktop-ai.git
 cd llama3-desktop-ai
 
-# 2. Set Up Python Environment
 
+# 2. Set Up Python Environment
 python -m venv venv
 source venv/bin/activate  
 
-# 3. Install Dependencies
 
+# 3. Install Dependencies
 pip install -r requirements.txt
 
+# 4. Run the app
+python llama.py
