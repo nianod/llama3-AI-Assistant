@@ -1,0 +1,7 @@
+torch
+transformers
+peft
+datasets
+opencv-python
+SpeechRecognition
+PyQt5
