@@ -166,7 +166,7 @@ class AIWindow(QMainWindow):
     
     def start_fine_tuning(self):
         def fine_tune_thread():
-            # Example fine-tuning setup
+            #  fine-tuning setup
             data = {"text": ["sample text 1", "sample text 2"]} 
             dataset = Dataset.from_dict(data)
             
@@ -207,7 +207,7 @@ class AIWindow(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     
-    # Verify GPU availability
+    # Verification of GPU availability
     if not torch.cuda.is_available():
         print("WARNING: No GPU detected. Performance will be severely limited.")
     
